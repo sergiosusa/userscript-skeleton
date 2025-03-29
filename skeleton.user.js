@@ -81,9 +81,5 @@ function Renderable() {
     this.canHandleCurrentPage = () => {
         return null !== document.location.href.match(this.handlePage);
     };
-
-    this.showAlert = (text) => {
-        alert(text);
-    }
 }
 // endregion
